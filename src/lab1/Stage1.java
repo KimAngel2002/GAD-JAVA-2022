@@ -1,10 +1,12 @@
+package lab1;
+
 public class Stage1 {
     public static void main(String args[])
     {
         for(int i=1; i<=100; i++){
                 //stage 1
             if (i%3==0 && i%5==0)
-                System.out.println("FizzBuzz");
+                System.out.println("lab1.FizzBuzz");
             else if(i%3==0)
                 System.out.println("Fizz");
             else if(i%5==0)

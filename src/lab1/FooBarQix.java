@@ -1,3 +1,5 @@
+package lab1;
+
 public class FooBarQix {
     static int verif_cifra(int i){
         if (i==3) {

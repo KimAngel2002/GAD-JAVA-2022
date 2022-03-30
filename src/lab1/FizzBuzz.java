@@ -1,3 +1,5 @@
+package lab1;
+
 public class FizzBuzz {
     public static void main(String args[]) {
         int ok = 0;
