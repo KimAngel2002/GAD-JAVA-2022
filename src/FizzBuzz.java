@@ -12,7 +12,7 @@ public class FizzBuzz {
             }
             if (i % 7 == 0) {
                 ok = 1;
-                System.out.print("Rizz, ");
+                System.out.print("Rizz");
             }
             if (i % 11 == 0) {
                 ok = 1;
@@ -21,7 +21,8 @@ public class FizzBuzz {
             if (ok == 0)
                 System.out.print(i);
             ok = 0;
-            System.out.print(", ");
+            if(i<100)
+                System.out.print(", ");
         }
     }
 }
