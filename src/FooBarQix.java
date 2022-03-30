@@ -101,12 +101,12 @@ public class FooBarQix {
 
     }
     public static void main(String args[]) {
-//        for (int i = 1; i <= 53; i++) {
-        int i=101;
+        for (int i = 1; i <= 53; i++) {
+//        int i=101;
             System.out.print(i + " => ");
 //            compute(i);
             compute2(i);
             System.out.print(System.lineSeparator());
-//        }
+        }
     }
 }
