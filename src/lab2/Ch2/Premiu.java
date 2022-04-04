@@ -1,11 +1,11 @@
 package lab2.Ch2;
 
 public class Premiu {
-    private String name;
+    private String nume;
     private int an;
 
-    public Premiu(String name, int an){
-        this.name=name;
+    public Premiu(String nume, int an){
+        this.nume = nume;
         this.an = an;
     }
 }

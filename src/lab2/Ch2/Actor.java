@@ -1,15 +1,21 @@
 package lab2.Ch2;
 
 public class Actor {
-    private String name;
+    private String nume;
     private int varsta;
-    Premiu premiu;
+    private Premiu[] premii;
 
-    public Actor(String name, int varsta, Premiu premiu){
-        this.name = name;
+    public Actor(String nume, int varsta, Premiu[] premiu){
+        this.nume = nume;
         this.varsta = varsta;
-        this.premiu = premiu;
+        this.premii = premiu;
     }
 
+    public String getNume() {
+        return nume;
+    }
 
+    public int getVarsta() {
+        return varsta;
+    }
 }
